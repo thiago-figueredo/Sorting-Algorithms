@@ -1,11 +1,3 @@
-#include <iostream>
-using namespace std;
-
-enum Types {
-  Char = 1,
-  Int = 4,
-};
-
 template <typename T>
 
 void InsertionSort (T &arr, int n) {
