@@ -6,4 +6,4 @@ enum Type {
 enum Bool {
   False = 0,
   True = 1,
-}
+};
