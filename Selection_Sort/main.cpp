@@ -25,10 +25,10 @@ int main () {
   printArray(arr3, 5); // e,d,c,b,a
 
   char arr4[13] = {'t','y','c', 'a', 'e', 'o', 'p', 'q', 'r', 's', 'a', 'm' , 'n'};
-  selectionSort(arr4, 13);
+  SelectionSort(arr4, 13);
   printArray(arr4, 13); // a,a,c,e,m,n,o,p,q,r,s,t,y
 
-  selectionSort(arr4, 13, False);
+  SelectionSort(arr4, 13, False);
   printArray(arr4, 13); // y,t,s,r,q,p,o,n,m,e,c,a,a
 
   return 0;
