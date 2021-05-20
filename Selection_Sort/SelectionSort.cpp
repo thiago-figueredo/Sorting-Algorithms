@@ -31,7 +31,6 @@ void SelectionSort (T &arr, size_t n, Bool _IncreasingOrder = True) {
   int type = sizeof(arr[0]);
 
   if (type == Char || type == Int) {  
-    // SelectionSortIn(arr, n);
     _IncreasingOrder == False ? IncreasingOrder = False : IncreasingOrder = True;
   }
 
